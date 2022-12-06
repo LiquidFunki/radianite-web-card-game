@@ -1,0 +1,129 @@
+.homeInfo {
+  height: 30vh;
+}
+
+.AttInfo {
+  text-align: center;
+  color: white;
+  border: solid 2px rgb(255, 0, 0);
+  padding: 1%;
+  margin: 1%;
+  border-radius: 20px;
+  background-color: rgba(250, 235, 215, 0.186);
+}
+
+.homeRules {
+  height: 20vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.homeRulesBtn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 70%;
+  height: 70%;
+  border: 1px solid bisque;
+  background-color: rgba(251, 26, 195, 0.662);
+
+  border-radius: 30px;
+  font-size: 4vh;
+  color: white !important;
+}
+
+.homeStart {
+  height: 20vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.homeStartBtn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 70%;
+  height: 70%;
+  border: 1px solid bisque;
+  background-color: rgba(136, 255, 0, 0.4);
+
+  border-radius: 30px;
+  font-size: 4vh;
+  color: white !important;
+  transition: all 0.6s;
+  animation: move 1.5s infinite linear;
+}
+
+.homeRick {
+  height: 20vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.homeRickBtn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 70%;
+  height: 70%;
+  border: 1px solid bisque;
+  background-color: rgba(255, 0, 0, 0.367);
+  border-radius: 30px;
+  font-size: 4vh;
+  color: white !important;
+}
+
+.animCls:hover {
+  box-shadow: 1px 1px 40px rgba(38, 255, 0, 0.5);
+  background-color: orangered;
+}
+
+@keyframes move {
+  0% {
+    box-shadow: 1px 1px 40px rgba(38, 255, 0, 0);
+    transform: scale(1);
+  }
+  100% {
+    box-shadow: 1px 1px 40px rgba(255, 21, 0, 0.651);
+    transform: scale(1.05);
+  }
+}
+
+.homeDevs{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 30vh;
+    margin: 1.5%;
+}
+
+.DevImg{
+    border-radius: 50%;
+    height: 25vh;
+}
+.DevImgCont{
+    display: flex;
+    justify-content: center; ;
+}
+
+.homeDev{
+  box-shadow: 1px 1px 40px rgba(255, 221, 0, 0.5);
+
+    border: 1px solid bisque;
+    padding: 1%;
+    border-radius: 20px;
+    margin: 1%;
+    background-color: rgba(250, 235, 215, 0.186);
+    width: 25vw;
+}
+
+
+.DevName{
+    margin-top: 5px;
+    text-align: center;
+    font-size: 3vh;
+    color: white;
+}

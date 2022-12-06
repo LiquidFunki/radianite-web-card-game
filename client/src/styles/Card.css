@@ -1,0 +1,107 @@
+.CardImg {
+  height: 85%;
+  border-radius: 10px;
+  margin-top: 13px;
+  transition: all 0.4s ease;
+  animation: appear 1s forwards;
+}
+
+@keyframes appear {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.CardOnTable {
+  height: 90%;
+  margin-top: 10px;
+  margin-left: 7px;
+  border-radius: 10px;
+  transition: all 1s ease;
+}
+
+.TableCard.tuser {
+  position: relative;
+  margin-left: 10px;
+  height: 100%;
+}
+
+.tuser {
+  animation: appear 1s forwards;
+}
+
+.topponent {
+  animation: appear 1s forwards;
+}
+
+.tuser:hover {
+  transition: all 0.4s ease;
+  box-shadow: 1px 1px 40px rgba(38, 255, 0, 0.5);
+  border: 1px dashed rgb(53, 212, 0);
+}
+
+.topponent:hover {
+  transition: all 0.4s ease;
+  box-shadow: 1px 1px 40px rgba(255, 0, 0, 0.5);
+  border: 1px dashed rgb(230, 0, 0);
+}
+
+.Card {
+  position: relative;
+  flex-wrap: nowrap;
+  width: 75px;
+  height: 100%;
+}
+
+.user:hover {
+  margin-top: -1%;
+  transition: all 0.4s ease;
+}
+
+/* .user:active {
+  animation: disappear 1.5s forwards;
+}
+
+@keyframes disappear {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+} */
+
+.RulesCard {
+  height: 100%;
+  border-radius: 30px;
+  transition: all 0.4s ease;
+}
+
+.user {
+  box-shadow: 1px 1px 40px rgba(255, 238, 0, 0.5);
+  border: 1px solid rgb(97, 255, 58);
+  cursor: pointer;
+}
+
+.opponent {
+  box-shadow: 1px 1px 40px rgba(255, 0, 0, 0.5);
+  border: 1px solid rgb(176, 4, 4);
+}
+
+.popupImg {
+  height: 45vh;
+  border-radius: 10px;
+  box-shadow: 1px 1px 40px rgba(255, 0, 119, 0.5);
+}
+
+.popupCard {
+  display: flex;
+  justify-content: center;
+  position: absolute;
+  top: 30vh;
+  left: 3vw;
+  animation: appear 0.5s forwards;
+}

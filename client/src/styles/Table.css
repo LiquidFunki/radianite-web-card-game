@@ -1,0 +1,11 @@
+.Table {
+  border-radius: 10px;
+  background-color: rgba(255, 228, 196, 0.37);
+  border: 1px solid beige;
+  background-image: url(https://img.game-news24.com/2022/04/Valorant-new-agent-20-tin-Bounty-hunter-Codename-Leaked.jpeg);
+  background-size: cover;
+  margin-left: 1%;
+  margin-right: 1%;
+  width: 100%;
+  height: calc(90vh - calc(2 * calc(100vh - 80vh)));
+}

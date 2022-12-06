@@ -1,0 +1,14 @@
+@import "~materialize-css/dist/css/materialize.min.css";
+@import url("http://fonts.cdnfonts.com/css/valorant");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "VALORANT", sans-serif;
+}
+
+body {
+  background-image: url(../assets/Background.png);
+  background-size: cover;
+}

@@ -1,0 +1,31 @@
+.deck{
+    width:100%;
+    height: calc(100vh - 82.5vh);
+    display: flex;
+    justify-content: center;
+}
+
+.deckImage {
+    /* position: relative; */
+    /* width: 100%; */
+    position: relative;
+    text-align: center;
+    color: white; 
+    /* width:300px; */
+    width:70%;
+    height:100%;
+    
+}
+
+.deckLength{
+    position: absolute; 
+    /* top: 79.7vh;  */
+    /* left: 10vw;    */
+    text-align: center;
+    color:rgb(8, 250, 206);
+    padding-right: 2%;
+    padding-top: 0.8%;
+    /* background-color: rgba(128, 128, 128, 0.715); */
+    font-size: 5vh;
+
+}

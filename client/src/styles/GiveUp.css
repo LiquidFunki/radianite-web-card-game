@@ -1,0 +1,40 @@
+.GiveUpCont {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 1%;
+  width: 100%;
+  height: calc(100vh - 82.5vh);
+}
+
+.GiveUpBtn {
+  border: 1px solid bisque;
+  background-color: red;
+  margin: 1%;
+  border-radius: 15px;
+  width: 75%;
+  height: calc(100vh - 90vh);
+  transition: all 0.4s ease;
+  display: flex;
+  padding: 4%;
+  align-items: center;
+  text-align: center;
+}
+
+.GiveUpBtn:hover {
+  background-color: orangered;
+  transition: all 0.4s ease;
+  box-shadow: 1px 1px 40px rgba(255, 0, 0, 0.655);
+}
+
+.GiveUpBtn:active {
+  transition: all 0.5s ease;
+
+  transform: scale(0.9);
+}
+
+.GiveUpText {
+  color: white;
+  font-size: 4vh;
+  font-weight: bold;
+}

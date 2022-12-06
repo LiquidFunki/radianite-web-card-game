@@ -1,0 +1,49 @@
+.Rules{
+  color: white !important;
+}
+
+.rulesText{
+  margin: 2%;
+  font-size: 1.9vh;
+}
+
+.RulesContainer{
+  margin: 5%;
+  border-radius: 30px; 
+  border: 1px solid bisque;
+  padding: 3%;
+}
+
+.redSpan{
+  color: orangered;
+
+}
+.numSpan{
+  color: greenyellow;
+}
+.RulesText {
+  text-align: center !important;
+}
+
+.CardContainer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center !important;
+}
+
+.CardImgContainer {
+  height: 33vh;
+  margin: 1%;
+  padding: 1%;
+  border: 3px solid black;
+  border-radius: 30px;
+  transition: all 0.4s ease;
+}
+
+.CardImgContainer:hover {
+  padding: 0;
+  margin-left: 1.5%;
+  transition: all 0.4s ease;
+  box-shadow: 1px 1px 40px rgba(38, 255, 0, 0.5);
+  border: 3px dashed rgb(53, 212, 0);
+}

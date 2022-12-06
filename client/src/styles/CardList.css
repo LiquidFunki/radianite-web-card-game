@@ -1,0 +1,27 @@
+.CardList {
+  /* position: relative; */
+  display: flex;
+  justify-content: center;
+  /* background-color: bisque; */
+  border: 1px solid bisque;
+  /* background-image: url(../assets/CardBackground1.png); */
+  /* background-image: url(../assets/CardBackground2.png); */
+  background-image: url(../assets/CardBackground3.png);
+  background-size: cover;
+  margin: 1%;
+  border-radius: 15px;
+  width: 100%;
+  height: calc(100vh - 82.5vh);
+}
+
+.TableList {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: center;
+  border: 1px solid rgba(190, 240, 91, 0.742);
+  display: flex;
+  margin: 1%;
+  border-radius: 15px;
+  width: calc(100% - 15px);
+  height: calc(50% - 10px);
+}

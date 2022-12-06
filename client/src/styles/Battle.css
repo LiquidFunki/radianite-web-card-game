@@ -1,0 +1,54 @@
+.center {
+  display: flex !important;
+  justify-content: center !important;
+  animation: appear 1.5s forwards;
+}
+
+.pipec{
+  animation: appear .5s forwards;
+}
+
+@keyframes appear {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.createRoom {
+  border: 2px solid bisque;
+  margin-top: 5%;
+  width: 70%;
+  height: 80vh;
+  background-image: url(../assets/create.png);
+  background-size: cover;
+  cursor: pointer;
+  transition: all 0.4s ease;
+}
+
+.createRoom:hover {
+  transition: all 0.3s ease;
+  width: 73%;
+  transform: scale(1.03);
+  box-shadow: 1px 1px 40px rgb(255, 166, 0);
+}
+
+.joinRoom {
+  border: 2px solid bisque;
+  margin-top: 5%;
+  width: 70%;
+  background-image: url(../assets/join.png);
+  background-size: cover;
+  height: 80vh;
+  cursor: pointer;
+  transition: all 0.4s ease;
+}
+
+.joinRoom:hover {
+  transition: all 0.3s ease;
+  width: 73%;
+  transform: scale(1.03);
+  box-shadow: 1px 1px 40px rgb(16, 141, 250);
+}

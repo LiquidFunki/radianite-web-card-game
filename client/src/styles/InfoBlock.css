@@ -1,0 +1,76 @@
+.InfoBlock {
+  padding: 5%;
+  border-radius: 10px;
+  background-color: rgba(255, 228, 196, 0.37);
+  border: 1px solid beige;
+  margin-left: 1% !important;
+  width: 100%;
+  height: calc(90vh - calc(2 * calc(100vh - 80vh)));
+  font-weight: bold;
+  /* background-image: url(https://i.pinimg.com/originals/d3/39/5e/d3395ed9226a8a74c22891f4b2fe688f.png); */
+  background-image: url(https://images.hdqwalls.com/wallpapers/phoenix-valorant-4k-2020-3t.jpg);
+  background-size: cover;
+}
+
+.OppTimer {
+  height: 25%;
+  width: 100%;
+  font-size: 5vh;
+  color: red;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.TurnBlock {
+  padding-bottom: 3% !important;
+  height: 40%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 3vh;
+}
+
+.TurnButton {
+  height: 70%;
+  width: 70%;
+  background: url('../assets/endTurn.png') no-repeat ; 
+  background-size: cover;
+  align-items: center !important;
+  border-radius: 20px;
+  cursor: default !important;
+}
+
+.btnActive{
+  box-shadow: 1px 1px 40px rgba(30, 255, 0, 0.5);
+  border: 2px solid bisque;
+  cursor: pointer !important;
+}
+
+.btnActive:hover{
+  /* transform: scale(1.05); */
+  height: 75%;
+  width: 75%;
+}
+
+
+.TextInfBlock {
+  padding-top: 3% !important;
+  height: 30%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 4vh;
+}
+
+.UserTimer {
+  height: 30%;
+  width: 100%;
+  font-size: 5vh;
+  color: greenyellow;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
